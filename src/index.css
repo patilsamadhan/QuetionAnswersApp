@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.main__wrap {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  padding: 50px 0px;
+  justify-content: center;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.question {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.yes-button {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.no-button {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.next-button {
+  background-color: #2196f3; /* Blue */
+  color: white;
+}
+
+.score {
+  font-size: 18px;
+  font-weight: bold;
+}
